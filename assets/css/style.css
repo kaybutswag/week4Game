@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	}
+
+body{
+	font-family: 'Poiret One', cursive;
+	background-image: url("../images/OONTL10.jpg"); 
+    background-size: cover;
+
+}
+
+
+.container{
+	margin: 0 auto;
+}
+
+.mainContainer{
+	margin-top: 40px;
+}
+
+.icon{
+	background-color: #ede9e3;
+	text-align: center;
+	margin: 5px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #7386a6;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.icon p{
+	margin:0;
+}
+.icon img{
+	padding: 5px;
+	height: 60%;
+	border-radius: 25px;	
+}
+
+.name{
+	font-family: 'Great Vibes', cursive;
+	padding: 0;
+}
+#goldtext{
+	color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(http://theblogmarket.co/gold-texture-image.png) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+ }
+#instructions{
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Great Vibes', cursive;
+	z-index: 9999;
+	height: 200px;
+	margin-top: 60px;
+}
+
+.rowStats{
+	margin-top: 30px;
+	background-color: #7386a6;
+	border: 2px solid black;
+	border-radius: 25px;
+	height: 440px;
+	font-size: 30px;
+	padding: 5px;
+}
+
+
+.fighter, .enemy{
+	text-align: center;
+	margin: 0 auto;
+}
+
+button{
+	display: none;
+	background-color: #a67a73;
+	border: 2px solid black;
+	border-radius: 25px;	
+	font-size: 20px;
+	margin-top: 60px;
+	margin-left: 120px;	
+	text-align: center;
+}
+
+
+.fighterLine{
+	color: black;
+	background-color: #a69373;
+	border: 2px solid black;
+	border-radius: 25px;
+	height:75px; 
+	display: none;
+	font-size: 100%;
+	margin-bottom: 10px;
+	font-size: 15px;
+	padding:5px;	
+}
+
+.enemyLine{
+	background-color: black;
+	color: #a69373;
+	border: 2px solid #a69373;
+	border-radius: 25px;
+	height:75px;
+	display: none;
+	font-size: 100%;
+	margin-bottom: 10px;
+	font-size: 15px;	
+	padding:5px; 
+}
+
+footer{
+	background-color: black;
+	color:#a69373;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+	padding-top: 30px;
+	font-family: 'Great Vibes', cursive;	
+
+}
+
+/* https://css-tricks.com/snippets/css/sticky-footer/ */
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+
+footer,
+.push {
+  height: 105px;
+}
+
+/* end sticky footer styling */

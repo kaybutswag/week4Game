@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Snark Off</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"></link>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+	<!-- <header class="masthead">
+		<h1>Snark Attack</h1>
+		<h2> Choose your fighter in a battle against self-esteem.</h2>
+	</header> -->
+
+	<div class="wrapper">
+		<section class="container mainContainer">
+			<div class="row">
+				<div class="col-6 col-lg-3">
+				<div class="icon" value="Lucille">
+					<img class="img-fluid" src="assets/images/lucille-bluth.png" alt="Lucille Bluth">
+					<p class="name"> Lucille Buth</p>
+					<p>Ego Level: <span id="lLevel">30</span></p>
+					<p id="lscores"></p>
+				</div>
+				</div>
+				<div class="col-6 col-lg-3">
+				<div class="icon" value="Dwight">
+					<img class="img-fluid" src="assets/images/dwight-schrute-1.jpg" alt="Dwight K. Shrute">
+					<p class="name">Dwight K. Shrute</p>
+					<p>Ego Level: <span id="dLevel">16</span></p>
+					<p id="dscores"></p>
+				</div>
+				</div>
+				<div class="col-6 col-lg-3">
+				<div class="icon" value="Paris">
+					<img class="img-fluid" src="assets/images/parisG.jpg" alt="Paris Geller">
+					<p class="name">Paris Eustace Geller</p>
+					<p>Ego Level: <span id="pLevel">17</span></p>
+					<p id="pscores"></p>
+				</div>
+				</div>
+				<div class="col-6 col-lg-3">
+				<div class="icon" value="Jack">
+					<img class="img-fluid" src="assets/images/jackD.jpeg" alt="Jack Donaghy">
+					<p class="name">Jack Donaghy</p>
+					<p>Ego Level: <span id="jLevel">20</span></p>
+					<p id="jscores"></p>
+				</div>
+				</div>
+			</div>
+
+		<!-- 	<div class="container">
+				<div class="talkee">
+					<div class="col-12">
+						<p id="instructions">Choose your Warrior. Your attack points will double while those of your opponent will stay the same. You must defeat all opponents</p>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="container">
+				<div class="row rowStats">
+					<div class="col-12 col-md-4 fighter">
+						<p>Your Fighter:</p>
+						<div class="fighterIcon"></div>
+						<div class="tagline fighterLine"></div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div id="instructions"><p id="goldtext">Choose your Warrior. Your attack points will double while those of your opponent will stay the same. You must defeat all opponents</p></div>
+						<button>Attack</button>
+					</div>
+					<div class="col-12 col-md-4 enemy">
+						<p>Your Adversary:</p>
+						<div class="enemyIcon"></div>
+						<div class="tagline enemyLine"></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row lostBin">
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+				</div>
+			</div>
+			</section>
+				<div class="push"></div>
+	</div>
+
+	<footer> 
+		<div class="container"> 
+			Copyright &copy; 2018 Katharine Wagner. <a href="https://www.freepik.com/free-vector/golden-ornamental-pattern-background_1105661.htm">Background by Freepik</a>
+		</div>	
+	</footer>
+
+</body>
+</html>
