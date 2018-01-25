@@ -43,7 +43,7 @@ var lucilleStats= {
   var dwightStats={
 "health": 16,
 "attack": 6,
-"cAttack":6,   
+"cAttack":6 ,   
 "quotes": ["Depression? Isn't that a fancy word for feeling bummed out?",
   "Speaking of funerals, why don't you go ahead and die.",
   "You look normal, ugly.",

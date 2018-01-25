@@ -43,14 +43,7 @@ body{
 	font-family: 'Great Vibes', cursive;
 	padding: 0;
 }
-#goldtext{
-	color:#c3a343;
-    -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent),
-    url(http://theblogmarket.co/gold-texture-image.png) repeat;
-    background: -o-linear-gradient(transparent, transparent);
-    -webkit-background-clip: text;
- }
+
 #instructions{
 	text-align: center;
 	padding: 10px;
